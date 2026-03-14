@@ -22,6 +22,10 @@ public class Conta {
             System.out.println("Saldo Insuficiente");
         }
     }
+    //método ver saldo
+    public double getsaldo() {
+        return saldo;
+    }
 
 }
 
