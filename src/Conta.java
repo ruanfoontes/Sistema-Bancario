@@ -14,6 +14,14 @@ public class Conta {
     public void depositar(double valor) {
         saldo += valor;
     }
+    // Método saque
+    public void sacar(double valor){
+        if (saldo >= valor) {
+            saldo -= valor;
+        } else {
+            System.out.println("Saldo Insuficiente");
+        }
+    }
 
 }
 
